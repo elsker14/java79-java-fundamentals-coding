@@ -34,7 +34,7 @@ public class AsciiAlphabet {
         System.out.print("Introduceti a doua litera litera: ");
         char literaDeSfarsit = scanner.next().charAt(0);
 
-        // se poate inlocu cu isUpperCase in cazul in care se utilizeaza litere mari
+        // se poate inlocui cu isUpperCase in cazul in care se utilizeaza litere mari
         if (!Character.isLowerCase(literaDeStart) || !Character.isLowerCase(literaDeSfarsit)) {
             System.out.println("Ambele litere ar trebui sa fie mici!");
             return;
